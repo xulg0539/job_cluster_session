@@ -1,0 +1,189 @@
+26-Jun-2020 17:25:03.097 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 17:25:03.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 17:25:03.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 17:25:03.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 17:25:03.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 17:25:03.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 17:25:03.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk1.8.0_131\jre
+26-Jun-2020 17:25:03.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_131-b11
+26-Jun-2020 17:25:03.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 17:25:03.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/xulin/Desktop/job_cluster_session/apache-tomcat-8080/conf/logging.properties
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/xulin/Desktop/job_cluster_session/apache-tomcat-8080
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/xulin/Desktop/job_cluster_session/apache-tomcat-8080
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/xulin/Desktop/job_cluster_session/apache-tomcat-8080/temp
+26-Jun-2020 17:25:03.105 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\xulin\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\xulin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl;.]
+26-Jun-2020 17:25:03.246 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+26-Jun-2020 17:25:03.842 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 17:25:03.857 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1193 ms
+26-Jun-2020 17:25:03.895 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 17:25:03.896 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 17:25:03.921 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\springboot_sssProject.war]
+26-Jun-2020 17:25:11.088 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 17:25:11.199 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\springboot_sssProject.war] has finished in [7,277] ms
+26-Jun-2020 17:25:11.200 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\docs]
+26-Jun-2020 17:25:11.247 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\docs] has finished in [47] ms
+26-Jun-2020 17:25:11.248 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\examples]
+26-Jun-2020 17:25:11.822 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\examples] has finished in [574] ms
+26-Jun-2020 17:25:11.822 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\host-manager]
+26-Jun-2020 17:25:11.869 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\host-manager] has finished in [47] ms
+26-Jun-2020 17:25:11.869 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\manager]
+26-Jun-2020 17:25:11.918 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8080\webapps\manager] has finished in [49] ms
+26-Jun-2020 17:25:11.924 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+26-Jun-2020 17:25:11.939 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 8082 ms
+26-Jun-2020 17:26:52.010 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Jun-2020 17:26:52.011 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jun-2020 17:26:52.435 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+26-Jun-2020 17:26:52.476 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+26-Jun-2020 17:26:52.479 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+27-Jun-2020 13:09:06.680 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'true' did not find a matching property.
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/xulin/Desktop/job_cluster_session/cluster/apache-tomcat-8080/conf/logging.properties
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/xulin/Desktop/job_cluster_session/cluster/apache-tomcat-8080
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/xulin/Desktop/job_cluster_session/cluster/apache-tomcat-8080
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/xulin/Desktop/job_cluster_session/cluster/apache-tomcat-8080/temp
+27-Jun-2020 13:09:06.774 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\xulin\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\xulin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl;.]
+27-Jun-2020 13:09:06.883 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+27-Jun-2020 13:09:07.842 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2020 13:09:07.874 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2195 ms
+27-Jun-2020 13:09:08.046 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2020 13:09:08.046 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.8.RELEASE)
+
+2020-06-27 13:09:22.863  INFO 1028 --- [ost-startStop-1] com.xulg.SpringbootSssApplication        : Starting SpringbootSssApplication v0.0.1-SNAPSHOT on LAPTOP-VN986TU1 with PID 1028 (C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\springboot_sssProject\WEB-INF\classes started by xulin in C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\bin)
+2020-06-27 13:09:22.879  INFO 1028 --- [ost-startStop-1] com.xulg.SpringbootSssApplication        : No active profile set, falling back to default profiles: default
+2020-06-27 13:09:27.028  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-27 13:09:27.037  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-27 13:09:28.104  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1006ms. Found 1 JPA repository interfaces.
+2020-06-27 13:09:28.199  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-27 13:09:28.199  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-27 13:09:28.293  INFO 1028 --- [ost-startStop-1] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xulg.dao.ResumeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-06-27 13:09:28.293  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2020-06-27 13:09:31.243  INFO 1028 --- [ost-startStop-1] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8219 ms
+2020-06-27 13:09:35.473  INFO 1028 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-27 13:09:36.356  INFO 1028 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-27 13:09:36.615  INFO 1028 --- [ost-startStop-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-27 13:09:37.006  INFO 1028 --- [ost-startStop-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-27 13:09:38.281  INFO 1028 --- [ost-startStop-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-27 13:09:39.648  INFO 1028 --- [ost-startStop-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-27 13:09:44.412  INFO 1028 --- [ost-startStop-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-27 13:09:44.474  INFO 1028 --- [ost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-27 13:09:47.196  INFO 1028 --- [ost-startStop-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-06-27 13:09:47.212  INFO 1028 --- [ost-startStop-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-06-27 13:09:50.163  WARN 1028 --- [ost-startStop-1] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-27 13:09:50.862  INFO 1028 --- [ost-startStop-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-27 13:09:51.379  INFO 1028 --- [ost-startStop-1] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-27 13:09:52.783  INFO 1028 --- [ost-startStop-1] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-06-27 13:09:52.886  INFO 1028 --- [ost-startStop-1] com.xulg.SpringbootSssApplication        : Started SpringbootSssApplication in 32.452 seconds (JVM running for 47.855)
+27-Jun-2020 13:09:53.382 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Jun-2020 13:09:54.360 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [837] milliseconds.
+27-Jun-2020 13:09:54.407 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\docs]
+27-Jun-2020 13:09:54.510 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\docs] has finished in [103] ms
+27-Jun-2020 13:09:54.510 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\examples]
+27-Jun-2020 13:09:55.657 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\examples] has finished in [1,147] ms
+27-Jun-2020 13:09:55.657 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\host-manager]
+27-Jun-2020 13:09:55.772 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\host-manager] has finished in [115] ms
+27-Jun-2020 13:09:55.772 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\manager]
+27-Jun-2020 13:09:55.850 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\manager] has finished in [78] ms
+27-Jun-2020 13:09:55.850 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\springboot_sssProject]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.8.RELEASE)
+
+2020-06-27 13:10:09.758  INFO 1028 --- [ost-startStop-1] com.xulg.SpringbootSssApplication        : Starting SpringbootSssApplication v0.0.1-SNAPSHOT on LAPTOP-VN986TU1 with PID 1028 (C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\springboot_sssProject\WEB-INF\classes started by xulin in C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\bin)
+2020-06-27 13:10:09.773  INFO 1028 --- [ost-startStop-1] com.xulg.SpringbootSssApplication        : No active profile set, falling back to default profiles: default
+2020-06-27 13:10:13.640  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-27 13:10:13.656  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-27 13:10:14.559  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 852ms. Found 1 JPA repository interfaces.
+2020-06-27 13:10:14.637  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-27 13:10:14.652  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-27 13:10:14.715  INFO 1028 --- [ost-startStop-1] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.xulg.dao.ResumeDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-06-27 13:10:14.730  INFO 1028 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-06-27 13:10:17.432  INFO 1028 --- [ost-startStop-1] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7518 ms
+2020-06-27 13:10:21.072  INFO 1028 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-06-27 13:10:21.780  INFO 1028 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-06-27 13:10:22.015  INFO 1028 --- [ost-startStop-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-27 13:10:22.342  INFO 1028 --- [ost-startStop-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-27 13:10:23.357  INFO 1028 --- [ost-startStop-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-27 13:10:24.346  INFO 1028 --- [ost-startStop-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-06-27 13:10:28.192  INFO 1028 --- [ost-startStop-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-27 13:10:28.254  INFO 1028 --- [ost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-27 13:10:30.929  INFO 1028 --- [ost-startStop-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-06-27 13:10:30.944  INFO 1028 --- [ost-startStop-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-06-27 13:10:33.512  WARN 1028 --- [ost-startStop-1] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-27 13:10:34.027  INFO 1028 --- [ost-startStop-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-27 13:10:34.521  INFO 1028 --- [ost-startStop-1] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-27 13:10:35.867  INFO 1028 --- [ost-startStop-1] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-06-27 13:10:35.930  INFO 1028 --- [ost-startStop-1] com.xulg.SpringbootSssApplication        : Started SpringbootSssApplication in 28.196 seconds (JVM running for 90.905)
+27-Jun-2020 13:10:36.262 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Jun-2020 13:10:36.346 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8080\webapps\springboot_sssProject] has finished in [40,496] ms
+27-Jun-2020 13:10:36.346 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+27-Jun-2020 13:10:36.377 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 88503 ms
+27-Jun-2020 13:10:52.708 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jun-2020 13:10:52.708 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Jun-2020 13:10:53.505 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+2020-06-27 13:10:53.616  INFO 1028 --- [ost-startStop-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-27 13:10:53.616  INFO 1028 --- [ost-startStop-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-27 13:10:53.635  INFO 1028 --- [ost-startStop-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-27 13:10:53.682  INFO 1028 --- [ost-startStop-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+27-Jun-2020 13:10:53.839 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+27-Jun-2020 13:10:53.855 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.5/java.lang.Object.wait(Native Method)
+ java.base@11.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.5/java.lang.Thread.run(Thread.java:834)]
+27-Jun-2020 13:10:53.855 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6a18a5af]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@6b948419]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+2020-06-27 13:10:53.944  INFO 1028 --- [ost-startStop-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-27 13:10:53.944  INFO 1028 --- [ost-startStop-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-27 13:10:53.944  INFO 1028 --- [ost-startStop-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-06-27 13:10:53.976  INFO 1028 --- [ost-startStop-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+27-Jun-2020 13:10:54.117 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [springboot_sssProject] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+27-Jun-2020 13:10:54.117 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[springboot_sssProject]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.5/java.lang.Object.wait(Native Method)
+ java.base@11.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.5/java.lang.Thread.run(Thread.java:834)]
+27-Jun-2020 13:10:54.117 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [springboot_sssProject] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@193f172c]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@2df99542]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Jun-2020 13:10:54.180 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+27-Jun-2020 13:10:54.180 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED

@@ -1,0 +1,576 @@
+27-Jun-2020 13:11:17.361 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'true' did not find a matching property.
+27-Jun-2020 13:11:17.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+27-Jun-2020 13:11:17.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+27-Jun-2020 13:11:17.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+27-Jun-2020 13:11:17.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\conf\logging.properties
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2020 13:11:17.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2020 13:11:17.486 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 13:11:17.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 13:11:17.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\temp
+27-Jun-2020 13:11:17.525 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+27-Jun-2020 13:11:17.682 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+27-Jun-2020 13:11:18.736 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2020 13:11:18.783 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3057 ms
+27-Jun-2020 13:11:18.957 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2020 13:11:18.957 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+27-Jun-2020 13:12:07.535 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Jun-2020 13:12:08.645 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [907] milliseconds.
+27-Jun-2020 13:12:08.728 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\docs]
+27-Jun-2020 13:12:08.808 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\docs] has finished in [80] ms
+27-Jun-2020 13:12:08.808 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\examples]
+27-Jun-2020 13:12:10.101 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\examples] has finished in [1,293] ms
+27-Jun-2020 13:12:10.101 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\host-manager]
+27-Jun-2020 13:12:10.197 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\host-manager] has finished in [96] ms
+27-Jun-2020 13:12:10.197 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\manager]
+27-Jun-2020 13:12:10.290 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\manager] has finished in [93] ms
+27-Jun-2020 13:12:10.290 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject]
+27-Jun-2020 13:12:51.418 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Jun-2020 13:12:51.527 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] has finished in [41,237] ms
+27-Jun-2020 13:12:51.541 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+27-Jun-2020 13:12:51.588 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 92800 ms
+27-Jun-2020 14:34:02.761 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'true' did not find a matching property.
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+27-Jun-2020 14:34:02.801 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\conf\logging.properties
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2020 14:34:02.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 14:34:02.817 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 14:34:02.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\temp
+27-Jun-2020 14:34:02.825 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+27-Jun-2020 14:34:02.898 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+27-Jun-2020 14:34:03.638 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2020 14:34:03.669 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1677 ms
+27-Jun-2020 14:34:03.780 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2020 14:34:03.780 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+27-Jun-2020 14:34:40.311 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Jun-2020 14:34:41.180 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [732] milliseconds.
+27-Jun-2020 14:34:41.232 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject.war]
+27-Jun-2020 14:35:14.938 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Jun-2020 14:35:15.016 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [33,784] ms
+27-Jun-2020 14:35:15.032 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\docs]
+27-Jun-2020 14:35:15.094 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\docs] has finished in [62] ms
+27-Jun-2020 14:35:15.094 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\examples]
+27-Jun-2020 14:35:15.860 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\examples] has finished in [766] ms
+27-Jun-2020 14:35:15.860 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\host-manager]
+27-Jun-2020 14:35:15.946 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\host-manager] has finished in [86] ms
+27-Jun-2020 14:35:15.946 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\manager]
+27-Jun-2020 14:35:16.024 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\manager] has finished in [78] ms
+27-Jun-2020 14:35:16.024 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+27-Jun-2020 14:35:16.055 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 72383 ms
+27-Jun-2020 17:03:31.278 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'true' did not find a matching property.
+27-Jun-2020 17:03:31.324 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\conf\logging.properties
+27-Jun-2020 17:03:31.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2020 17:03:31.356 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2020 17:03:31.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2020 17:03:31.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2020 17:03:31.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:03:31.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:03:31.387 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\temp
+27-Jun-2020 17:03:31.387 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+27-Jun-2020 17:03:31.465 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+27-Jun-2020 17:03:32.160 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2020 17:03:32.176 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1653 ms
+27-Jun-2020 17:03:32.287 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2020 17:03:32.287 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+27-Jun-2020 17:03:32.349 严重 [Catalina-startStop-1] org.apache.catalina.core.ContainerBase.startInternal 子容器启动失败
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@195960d7]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@195960d7]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:03:32.381 严重 [main] org.apache.catalina.core.ContainerBase.startInternal 子容器启动失败
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: 子容器启动失败
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:688)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@195960d7]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 8 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@195960d7]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:03:32.381 严重 [main] org.apache.catalina.startup.Catalina.start 所必需的服务组件启动失败，所以无法启动Tomcat
+	org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:688)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: 子容器启动失败
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@195960d7]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 8 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@195960d7]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:03:32.381 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-Jun-2020 17:03:32.381 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+27-Jun-2020 17:03:32.396 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8081"]
+27-Jun-2020 17:05:11.731 严重 [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8007]. Tomcat may not be running.
+27-Jun-2020 17:05:37.770 严重 [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8007]. Tomcat may not be running.
+27-Jun-2020 17:05:42.665 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'true' did not find a matching property.
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2020 17:05:42.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\conf\logging.properties
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\temp
+27-Jun-2020 17:05:42.728 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+27-Jun-2020 17:05:42.823 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+27-Jun-2020 17:05:43.418 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2020 17:05:43.434 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1508 ms
+27-Jun-2020 17:05:43.551 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2020 17:05:43.551 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+27-Jun-2020 17:05:43.614 严重 [Catalina-startStop-1] org.apache.catalina.core.ContainerBase.startInternal 子容器启动失败
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6e5a950c]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6e5a950c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:05:43.645 严重 [main] org.apache.catalina.core.ContainerBase.startInternal 子容器启动失败
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: 子容器启动失败
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:688)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6e5a950c]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 8 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6e5a950c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:05:43.645 严重 [main] org.apache.catalina.startup.Catalina.start 所必需的服务组件启动失败，所以无法启动Tomcat
+	org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:688)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: 子容器启动失败
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6e5a950c]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 8 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6e5a950c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:05:43.645 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-Jun-2020 17:05:43.645 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+27-Jun-2020 17:05:43.645 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8081"]
+27-Jun-2020 17:06:42.182 严重 [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8007]. Tomcat may not be running.
+27-Jun-2020 17:06:46.832 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'true' did not find a matching property.
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\conf\logging.properties
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2020 17:06:46.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:06:46.895 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:06:46.895 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\temp
+27-Jun-2020 17:06:46.895 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+27-Jun-2020 17:06:46.988 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+27-Jun-2020 17:06:47.646 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2020 17:06:47.677 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1582 ms
+27-Jun-2020 17:06:47.756 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2020 17:06:47.772 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+27-Jun-2020 17:06:47.834 严重 [Catalina-startStop-1] org.apache.catalina.core.ContainerBase.startInternal 子容器启动失败
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2fb75ae2]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2fb75ae2]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:06:47.850 严重 [main] org.apache.catalina.core.ContainerBase.startInternal 子容器启动失败
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: 子容器启动失败
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:688)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2fb75ae2]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 8 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2fb75ae2]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:06:47.850 严重 [main] org.apache.catalina.startup.Catalina.start 所必需的服务组件启动失败，所以无法启动Tomcat
+	org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:688)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: 子容器启动失败
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: 子容器启动失败
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:942)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2fb75ae2]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:931)
+		... 8 more
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2fb75ae2]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4814)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4949)
+		... 7 more
+	Caused by: java.lang.IllegalArgumentException: 指定的主资源集 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject] 无效
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:748)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 9 more
+27-Jun-2020 17:06:47.881 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-Jun-2020 17:06:47.881 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+27-Jun-2020 17:06:47.881 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8081"]
+27-Jun-2020 17:18:44.920 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'true' did not find a matching property.
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+27-Jun-2020 17:18:45.046 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\conf\logging.properties
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\temp
+27-Jun-2020 17:18:45.061 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+27-Jun-2020 17:18:45.186 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+27-Jun-2020 17:18:45.968 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Jun-2020 17:18:45.983 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1930 ms
+27-Jun-2020 17:18:46.108 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2020 17:18:46.108 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+27-Jun-2020 17:19:16.743 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Jun-2020 17:19:17.493 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [657] milliseconds.
+27-Jun-2020 17:19:17.546 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject.war]
+27-Jun-2020 17:19:41.170 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+27-Jun-2020 17:19:41.233 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [23,687] ms
+27-Jun-2020 17:19:41.233 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\docs]
+27-Jun-2020 17:19:41.287 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\docs] has finished in [54] ms
+27-Jun-2020 17:19:41.287 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\examples]
+27-Jun-2020 17:19:41.818 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\examples] has finished in [531] ms
+27-Jun-2020 17:19:41.818 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\host-manager]
+27-Jun-2020 17:19:41.881 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\host-manager] has finished in [63] ms
+27-Jun-2020 17:19:41.881 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\manager]
+27-Jun-2020 17:19:41.928 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\cluster\apache-tomcat-8081\webapps\manager] has finished in [47] ms
+27-Jun-2020 17:19:41.943 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+27-Jun-2020 17:19:41.959 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 55976 ms

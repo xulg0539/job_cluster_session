@@ -1,0 +1,362 @@
+26-Jun-2020 17:00:06.986 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 17:00:06.992 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 17:00:06.992 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 17:00:06.992 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 17:00:06.992 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 17:00:06.992 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 17:00:06.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk1.8.0_131\jre
+26-Jun-2020 17:00:06.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_131-b11
+26-Jun-2020 17:00:06.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 17:00:06.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:00:06.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:00:06.993 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 17:00:06.994 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 17:00:06.994 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 17:00:06.995 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 17:00:06.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 17:00:06.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:00:06.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:00:06.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 17:00:07.000 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 17:00:07.147 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 17:00:07.731 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 17:00:07.746 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1201 ms
+26-Jun-2020 17:00:07.794 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 17:00:07.794 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 17:00:07.817 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 17:00:08.166 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [346] ms
+26-Jun-2020 17:00:08.167 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 17:00:08.819 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [652] ms
+26-Jun-2020 17:00:08.819 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 17:00:08.873 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [53] ms
+26-Jun-2020 17:00:08.873 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 17:00:08.930 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [57] ms
+26-Jun-2020 17:00:08.930 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\ROOT]
+26-Jun-2020 17:00:08.975 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\ROOT] has finished in [45] ms
+26-Jun-2020 17:00:08.979 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 17:00:08.994 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1246 ms
+26-Jun-2020 17:22:59.815 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 17:22:59.821 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 17:22:59.821 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 17:22:59.822 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 17:22:59.822 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 17:22:59.822 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 17:22:59.822 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk1.8.0_131\jre
+26-Jun-2020 17:22:59.822 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_131-b11
+26-Jun-2020 17:22:59.822 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 17:22:59.823 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:22:59.823 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:22:59.823 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 17:22:59.823 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 17:22:59.823 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 17:22:59.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 17:22:59.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 17:22:59.826 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:22:59.827 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:22:59.827 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 17:22:59.828 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 17:22:59.967 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 17:23:00.511 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 17:23:00.525 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1129 ms
+26-Jun-2020 17:23:00.567 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 17:23:00.567 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 17:23:00.587 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 17:23:00.977 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [388] ms
+26-Jun-2020 17:23:00.978 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 17:23:01.582 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [605] ms
+26-Jun-2020 17:23:01.583 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 17:23:01.638 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [55] ms
+26-Jun-2020 17:23:01.639 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 17:23:01.693 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [54] ms
+26-Jun-2020 17:23:01.694 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\ROOT]
+26-Jun-2020 17:23:01.733 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\ROOT] has finished in [40] ms
+26-Jun-2020 17:23:01.737 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 17:23:01.751 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1225 ms
+26-Jun-2020 17:24:22.321 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+26-Jun-2020 17:24:22.357 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war]
+26-Jun-2020 17:24:29.476 信息 [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 17:24:29.550 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [7,192] ms
+26-Jun-2020 17:25:08.731 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 17:25:08.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 17:25:08.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 17:25:08.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 17:25:08.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 17:25:08.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 17:25:08.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk1.8.0_131\jre
+26-Jun-2020 17:25:08.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_131-b11
+26-Jun-2020 17:25:08.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 17:25:08.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:25:08.742 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:25:08.742 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 17:25:08.743 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 17:25:08.743 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 17:25:08.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 17:25:08.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 17:25:08.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:25:08.776 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:25:08.777 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 17:25:08.779 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 17:25:08.943 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 17:25:09.551 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 17:25:09.567 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1386 ms
+26-Jun-2020 17:25:09.609 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 17:25:09.609 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 17:25:09.642 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war]
+26-Jun-2020 17:25:15.982 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 17:25:16.103 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [6,460] ms
+26-Jun-2020 17:25:16.105 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 17:25:16.147 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [41] ms
+26-Jun-2020 17:25:16.147 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 17:25:16.623 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [476] ms
+26-Jun-2020 17:25:16.623 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 17:25:16.682 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [59] ms
+26-Jun-2020 17:25:16.683 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 17:25:16.732 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [49] ms
+26-Jun-2020 17:25:16.740 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 17:25:16.757 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 7188 ms
+26-Jun-2020 17:27:07.082 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 17:27:07.087 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 17:27:07.087 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 17:27:07.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 17:27:07.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 17:27:07.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 17:27:07.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk1.8.0_131\jre
+26-Jun-2020 17:27:07.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_131-b11
+26-Jun-2020 17:27:07.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 17:27:07.088 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:27:07.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:27:07.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 17:27:07.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 17:27:07.089 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 17:27:07.090 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 17:27:07.091 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 17:27:07.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:27:07.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:27:07.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 17:27:07.094 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 17:27:07.240 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 17:27:07.787 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 17:27:07.802 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1134 ms
+26-Jun-2020 17:27:07.839 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 17:27:07.840 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 17:27:07.871 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war]
+26-Jun-2020 17:27:13.886 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 17:27:13.988 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [6,118] ms
+26-Jun-2020 17:27:13.989 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 17:27:14.033 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [44] ms
+26-Jun-2020 17:27:14.033 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 17:27:14.542 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [509] ms
+26-Jun-2020 17:27:14.542 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 17:27:14.620 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [78] ms
+26-Jun-2020 17:27:14.621 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 17:27:14.682 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [62] ms
+26-Jun-2020 17:27:14.690 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 17:27:14.707 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 6904 ms
+26-Jun-2020 17:33:08.219 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 17:33:08.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 17:33:08.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 17:33:08.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 17:33:08.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 17:33:08.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 17:33:08.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk1.8.0_131\jre
+26-Jun-2020 17:33:08.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_131-b11
+26-Jun-2020 17:33:08.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 17:33:08.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:33:08.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:33:08.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 17:33:08.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 17:33:08.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 17:33:08.229 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 17:33:08.229 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 17:33:08.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:33:08.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 17:33:08.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 17:33:08.232 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk1.8.0_131\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 17:33:08.393 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 17:33:09.049 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 17:33:09.066 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1302 ms
+26-Jun-2020 17:33:09.114 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 17:33:09.115 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 17:33:09.152 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war]
+26-Jun-2020 17:33:15.770 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 17:33:15.862 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [6,710] ms
+26-Jun-2020 17:33:15.862 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 17:33:15.922 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [60] ms
+26-Jun-2020 17:33:15.922 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 17:33:16.543 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [621] ms
+26-Jun-2020 17:33:16.543 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 17:33:16.598 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [55] ms
+26-Jun-2020 17:33:16.599 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 17:33:16.654 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [54] ms
+26-Jun-2020 17:33:16.662 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 17:33:16.681 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 7615 ms
+26-Jun-2020 18:00:53.776 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jun-2020 18:00:53.793 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jun-2020 18:00:53.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 18:00:53.824 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 18:00:53.903 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 18:00:54.403 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 18:00:54.418 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1206 ms
+26-Jun-2020 18:00:54.512 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 18:00:54.512 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 18:00:54.575 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war]
+26-Jun-2020 18:01:17.447 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 18:01:17.996 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [470] milliseconds.
+26-Jun-2020 18:01:18.027 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [23,452] ms
+26-Jun-2020 18:01:18.027 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 18:01:18.059 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [32] ms
+26-Jun-2020 18:01:18.074 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 18:01:18.702 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [628] ms
+26-Jun-2020 18:01:18.702 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 18:01:18.780 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [78] ms
+26-Jun-2020 18:01:18.780 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 18:01:18.827 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [47] ms
+26-Jun-2020 18:01:18.842 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 18:01:18.858 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 24436 ms
+26-Jun-2020 18:31:11.872 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 18:31:11.888 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 18:31:11.888 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 18:31:11.888 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 18:31:11.888 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 18:31:11.888 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 18:31:11.888 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+26-Jun-2020 18:31:11.888 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 18:31:11.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 18:31:11.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 18:31:11.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 18:31:11.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:31:11.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:31:11.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 18:31:11.935 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 18:31:12.020 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 18:31:12.549 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 18:31:12.565 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1375 ms
+26-Jun-2020 18:31:12.627 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 18:31:12.643 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 18:31:12.674 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war]
+26-Jun-2020 18:31:37.019 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 18:31:37.663 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [539] milliseconds.
+26-Jun-2020 18:31:37.696 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [25,022] ms
+26-Jun-2020 18:31:37.699 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 18:31:37.749 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [49] ms
+26-Jun-2020 18:31:37.749 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 18:31:38.498 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [749] ms
+26-Jun-2020 18:31:38.499 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 18:31:38.571 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [72] ms
+26-Jun-2020 18:31:38.572 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 18:31:38.641 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [69] ms
+26-Jun-2020 18:31:38.656 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 18:31:38.678 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 26108 ms
+26-Jun-2020 18:43:44.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 18:43:44.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:43:44.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:43:44.768 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jun-2020 18:43:44.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jun-2020 18:43:44.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jun-2020 18:43:44.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 18:43:44.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 18:43:44.783 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 18:43:44.799 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 18:43:44.799 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 18:43:44.799 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:43:44.799 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 18:43:44.799 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 18:43:44.799 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 18:43:44.861 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 18:43:45.362 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 18:43:45.391 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1263 ms
+26-Jun-2020 18:43:45.485 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 18:43:45.485 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 18:43:45.547 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war]
+26-Jun-2020 18:44:11.894 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 18:44:12.436 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [431] milliseconds.
+26-Jun-2020 18:44:12.478 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject.war] has finished in [26,931] ms
+26-Jun-2020 18:44:12.480 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 18:44:12.537 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [56] ms
+26-Jun-2020 18:44:12.537 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 18:44:13.384 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [847] ms
+26-Jun-2020 18:44:13.385 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 18:44:13.478 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [92] ms
+26-Jun-2020 18:44:13.478 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 18:44:13.564 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [86] ms
+26-Jun-2020 18:44:13.576 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 18:44:13.601 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 28196 ms
+26-Jun-2020 20:09:35.583 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'reloadbale' to 'true' did not find a matching property.
+26-Jun-2020 20:09:35.645 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               10.0
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         D:\Java\jdk-11.0.5
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              11.0.5+10-LTS
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\conf\logging.properties
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2020 20:09:35.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jun-2020 20:09:35.677 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 20:09:35.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081
+26-Jun-2020 20:09:35.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\temp
+26-Jun-2020 20:09:35.692 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk-11.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk-11.0.5\bin;D:\apache-maven-3.6.3\bin;D:\Git\cmd;D:\TortoiseGit\bin;D:\gradle-5.6.3\bin;D:\Redis;C:\Users\xulin\AppData\Local\Microsoft\WindowsApps;;.]
+26-Jun-2020 20:09:35.810 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8081"]
+26-Jun-2020 20:09:36.827 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2020 20:09:36.858 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2419 ms
+26-Jun-2020 20:09:36.983 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2020 20:09:36.983 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+26-Jun-2020 20:10:20.610 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 20:10:21.773 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [979] milliseconds.
+26-Jun-2020 20:10:21.851 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs]
+26-Jun-2020 20:10:21.945 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\docs] has finished in [94] ms
+26-Jun-2020 20:10:21.945 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples]
+26-Jun-2020 20:10:23.088 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\examples] has finished in [1,143] ms
+26-Jun-2020 20:10:23.088 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager]
+26-Jun-2020 20:10:23.229 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\host-manager] has finished in [141] ms
+26-Jun-2020 20:10:23.229 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager]
+26-Jun-2020 20:10:23.354 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\manager] has finished in [125] ms
+26-Jun-2020 20:10:23.354 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject]
+26-Jun-2020 20:10:59.778 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+26-Jun-2020 20:10:59.887 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\xulin\Desktop\job_cluster_session\apache-tomcat-8081\webapps\springboot_sssProject] has finished in [36,533] ms
+26-Jun-2020 20:10:59.918 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8081"]
+26-Jun-2020 20:10:59.950 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 83093 ms
